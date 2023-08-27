@@ -1,0 +1,106 @@
+```css
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and line height */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* About section styles */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-picture img {
+  max-width: 700px; /* Adjust the value to your desired size */
+  border-radius: 50%;
+}
+
+/* Skills section styles */
+.skills {
+  padding: 40px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+}
+
+.skill-image {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+/* Project section styles */
+.projects {
+  padding: 40px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+}
+
+.project-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .about, .projects {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .project-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+```
+
+
+You can place this CSS code in a file named `styles.css` and make sure it's in the same directory as your HTML file. You can adjust the styles as needed to match your design preferences. This is just a basic example, and you can customize it further to achieve the desired look and feel for your profile page.
